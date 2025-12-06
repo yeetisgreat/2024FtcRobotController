@@ -99,10 +99,10 @@ public class TwoControllers extends LinearOpMode {
 
         // Initialize the hardware variables. Note that the strings used here must correspond
         // to the names assigned during the robot configuration step on the DS or RC devices.
-        leftFrontDrive  = hardwareMap.get(DcMotor.class, "left_front_drive"); //motor 3
-        leftBackDrive  = hardwareMap.get(DcMotor.class, "left_back_drive"); //motor 2
-        rightFrontDrive = hardwareMap.get(DcMotor.class, "right_front_drive"); //motor 1
-        rightBackDrive = hardwareMap.get(DcMotor.class, "right_back_drive"); //motor 0
+        rightBackDrive  = hardwareMap.get(DcMotor.class, "left_front_drive"); //motor 3
+        rightFrontDrive  = hardwareMap.get(DcMotor.class, "left_back_drive"); //motor 2
+        leftBackDrive = hardwareMap.get(DcMotor.class, "right_front_drive"); //motor 1
+        leftFrontDrive = hardwareMap.get(DcMotor.class, "right_back_drive"); //motor 0
         shoulderLeft = hardwareMap.get(DcMotor.class, "shoulder_left"); //motor 0 expansion hub
         shoulderRight = hardwareMap.get(DcMotor.class, "shoulder_right"); //motor 1 expansion hub
         forearm = hardwareMap.get(DcMotor.class, "forearm"); //motor 2 expansion hub
